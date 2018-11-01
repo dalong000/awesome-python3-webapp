@@ -4,7 +4,7 @@ def consumer():
         n = yield r
         if not n:
             return
-        print('[CONSUMER] cONSUMING %s...'%n)
+        print('[CONSUMER] Consuming %s...'%n)
         r = '200 OK'
 
 
